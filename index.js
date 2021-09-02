@@ -6,6 +6,6 @@ mongoose.connect('mongodb+srv://ehddud1006:ehdrnajd55@boilerplate.tdugp.mongodb.
 }).then(() => console.log('MongoDB Connected...'))
     .catch(err => console.log(err))
 
-app.get('/', (req, res) => res.send('Hello BAAM!!!'))
+app.get('/', (req, res) => res.send('Hello BAAM!!!!!'))
 
 app.listen(port, () => console.log(`Example app listning on port ${port}!`))
